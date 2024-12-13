@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Busca al simpsons</string>
+    <string name="title_menu">Menu</string>
+
+    <string name="menu_instrucciones">Instrucciones</string>
+    <string name="menu_nuevo">Nuevo Juego</string>
+    <string name="menu_config">Configuraciones</string>
+    <string name="menu_personaje">Seleccionar Personaje</string>
+    <string name="menu_instrucciones_desc">Intruciones</string>
+
+    <string name="instructions_content">El juego es tipo buscaminas: Cuando pulsas en una casilla, sale un número que identifica cuántas hipotenochas hay alrededor: Ten cuidado porque si pulsas en una casilla que tenga una hipotenocha escondida, perderás. Si crees o tienes la certeza de que hay una hipotenocha, haz un click largo sobre la casilla para señalarla. No hagas un click largo en una casilla donde no hay una hipotenocha porque perderás. Ganas una vez hayas encontrado todas las hipotenochas.</string>
+    <string name="instructions_title">Instrucciones</string>
+
+    <string name="config_titulo">Dificultad</string>
+
+    <string-array name="config_nombres">
+        <item>Principiante</item>
+        <item>Amateur</item>
+        <item>Avanzado</item>
+    </string-array>
+
+    <integer-array name="config_casillas">
+        <item>8</item>
+        <item>12</item>
+        <item>16</item>
+    </integer-array>
+
+    <integer-array name="config_hipos">
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+    </integer-array>
+
+    <string name="character_title">Selecciona un Personaje:</string>
+
+    <string-array name="personaje_nombre">
+        <item>homer</item>
+        <item>bart</item>
+        <item>lisa</item>
+        <item>magi</item>
+    </string-array>
+    <string name="selecciona_configuracion">Selecciona una configuración</string>
+
+
+    <integer-array name="personajes_imagenes">
+
+        <item>@drawable/homer</item>
+        <item>@drawable/bart</item>
+        <item>@drawable/lisa</item>
+        <item>@drawable/magi</item>
+    </integer-array>
+    <!-- Descripción para la accesibilidad de las imágenes -->
+    <string name="character_image">Imagen de Homer Simpson</string>
+    <string name="character_image_bart">Imagen de Bart Simpson</string>
+    <string name="character_image_lisa">Imagen de Lisa Simpson</string>
+    <string name="character_image_magi">Imagen de Magi Simpson</string>
+    <string name="menu_nuevo_desc">nuevo juego</string>
+    <string name="menu_config_desc">dificultad</string>
+    <string name="menu_personaje_desc">elige personaje</string>
+</resources>
